@@ -42,7 +42,7 @@ To run file
 - Type the file path in the address field (e.g http://localhost/PricePared/MAIN_FRONT.html)
 {Make sure you have saved all the files uder XAMPP -> htdocs -> PricePared folder}
 
-https://github.com/Kp3005/BMP 
+https://github.com/Kp3005/BMP.git 
 
 
 # Login Details
