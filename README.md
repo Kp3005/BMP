@@ -10,6 +10,7 @@ The primary actors of our website are;-
 2. Admin (manages all the stores)
 3. Updates Manager (for each store updates prices)
 4. Counter Manager (for each store works like a cashier)
+5. Delivery Boy(Online delivery)
 
 # Installation
 
