@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("z1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.intro{
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
+.intro p{
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 100px;
+
+  text-align: justify;
+}
+.foo{
+    background-color: #333; 
+    height: 50px;
+    color: white; 
+    text-align: center; 
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(129, 201, 149);}
+
+ul.topnav li a.active {background-color: whitesmoke; color: black;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a class="active" href="partners.html">Our Partners</a></li>
+  <li><a href="about.html" target="_blank">About Us</a></li>
+  <li><a href="CONTACT.php" target="_blank">Contact</a></li>
+  <li><a href="MAIN_FRONT.html" target="_blank">Home</a></li>
+  <li class="right"><a href="login-user.php" target="_blank">Login</a></li>
+</ul>
+
+
+<div class="hero-image" style="margin-bottom: 20px;">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Our Partners</h1>
+    </div>
+</div>
+</div>
+
+<div class="intro">
+  <p>To ensure that our customers gets the advantage of best prices without sacrificing on the quality, we the "PricePared.com"
+  have collabrated with retail companies like D-mart, Reliance SMART and Big-Bazaar.
+  <br>
+  <br>
+  <b>DMart</b>, is an Indian retail corporation that operates a chain of hypermarkets in India. It was founded by Radhakishan Damani in 2002, with its first branch in Powai's Hiranandani Gardens.
+  <br>
+  <br>
+  <b>Reliance SMART</b> is one of the largest & fastest growing Grocery retail chains in India.
+Synonymous to its name, SMART is a new age supermarket serving the needs of todays smart and value seeking customers.
+<br>
+<br>
+<b>Big Bazaar</b> was an Indian retail chain of hypermarkets, discount department stores, and grocery stores. The retail chain was founded by Kishore Biyani under his parent organisation Future Group., which is known for having a significant prominence in Indian retail and fashion sectors.
+
+</p>
+</div>
+
+
+<img src="brands.JPG" alt="Brands" class="center" style="margin-bottom: 80px; margin-top:80px ;">
+
+<h2 style="text-align: center;">STORES</h2>
+
+<table style="margin-bottom: 30px;">
+  <tr>
+    <th>City</th>
+    <th>Location</th>
+    <th>Store</th>
+  </tr>
+  <tr>
+    <td>Mumbai</td>
+    <td>Bandra</td>
+    <td>D-mart</td>
+  </tr>
+  <tr>
+    <td>Mumbai</td>
+    <td>Mira Road</td>
+    <td>D-mart</td>
+  </tr>
+  <tr>
+    <td>Mumbai</td>
+    <td>Malad</td>
+    <td>Big-Bazaar</td>
+  </tr>
+  <tr>
+    <td>Mumbai</td>
+    <td>Bandra</td>
+    <td>Big-Bazaar</td>
+  </tr>
+  <tr>
+    <td>Mumbai</td>
+    <td>Mira Road</td>
+    <td>Reliance SMART</td>
+  </tr>
+  <tr>
+    <td>Mumbai</td>
+    <td>Malad</td>
+    <td>Reliance SMART</td>
+  </tr>
+  <tr>
+    <td>Ahmedabad</td>
+    <td>Motera</td>
+    <td>D-mart</td>
+  </tr>
+  <tr>
+    <td>Ahmedabad</td>
+    <td>Naroda</td>
+    <td>D-mart</td>
+  </tr>
+  <tr>
+    <td>Ahmedabad</td>
+    <td>Naroda</td>
+    <td>Reliance SMART</td>
+  </tr>
+  <tr>
+    <td>Ahmedabad</td>
+    <td>Ring Road</td>
+    <td>Reliance SMART</td>
+  </tr>
+  <tr>
+    <td>Ahmedabad</td>
+    <td>Motera</td>
+    <td>Big-Bazaar</td>
+  </tr>
+  <tr>
+    <td>Ahmedabad</td>
+    <td>Ring Road</td>
+    <td>Big-Bazaar</td>
+  </tr>
+
+</table>
+
+
+</br>
+<div class="foo">
+    <br>
+    Copyright © 2022. All rights reserved by SRI-002 DA-IICT.
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<style>
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(15, 172, 159);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #eab029;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #eab029;
+    text-shadow: 2px 2px 4px #000000;
+    
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  border: solid 2px black;
+}
+
+
+button{
+  background-color: white;
+  padding: 20px;
+  border: solid 3px black;
+  cursor: pointer;
+  border-radius: 10%;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  text-shadow: 2px 2px 5px rgb(191, 190, 190);
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+button:hover {
+    background-color:rgb(255, 208, 0) ;
+}
+
+.column {
+  float: left;
+ /* width: 33.33%; */
+  padding: 70px;
+}
+.column:hover{
+  transform: scale(1.3);
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 50px;
+}
+
+h1{
+  text-shadow: 2px 2px 5px rgb(139, 138, 138);
+}
+
+.foo{
+    background-color: #333; 
+    height: 50px;
+    color: white; 
+    text-align: center; 
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+</style>
+
+<!-- <div class="navbar">
+  <a class="active" href="MAIN_FRONT.html" style="float: left; font-weight: 600; text-shadow: 15px; color:white ;">PricePared.com  </a>
+  <a href="login-user.php" target="_blank"><i class="fa fa-fw fa-user"></i> LOGOUT</a>
+  <a href="CONTACT.html" target="_blank"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="partners.html"><i class="fa fa-fw fa-search"></i> Stores</a>
+  <a href="about.html" target="_blank"><i class="fa fa-fw fa-home"></i> About Us</a>  
+</div> -->
+<br>
+
+<br>
+<br>
+<h1 style="text-align:center">CATEGORIES</h1>
+
+
+<div class="row" style="margin-left: 10%;">
+  <div class="column">
+    <div class="container">
+       <img src="images/1.webp" alt="Rice" style="width:200px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Rice</a></button></div>
+    </div>
+   </div> 
+
+   <div class="column">
+    <div class="container">
+       <img src="images/6.webp" alt="Wheat flour" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Wheat</a></button></div>
+    </div>
+   </div> 
+
+   <div class="column">
+    <div class="container">
+       <img src="images/11.webp" alt="Dals" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Dals</a></button></div>
+    </div>
+   </div> 
+   </div>             
+   
+   
+
+   
+<div class="row" style="margin-left: 5%;">
+  <div class="column">
+    <div class="container">
+       <img src="images/16.webp" alt="Ghee" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Ghee</a></button></div>
+    </div>
+   </div> 
+
+   <div class="column">
+    <div class="container">
+       <img src="images/28.jpg" alt="Oils" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Cooking Oils</a></button></div>
+    </div>
+   </div> 
+
+   <div class="column">
+    <div class="container">
+       <img src="images/35.webp" alt="salt" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Salt</a></button></div>
+    </div>
+   </div> 
+   </div> 
+
+
+
+
+   
+<div class="row" style="margin-left: 5%;">
+  <div class="column">
+    <div class="container">
+       <img src="images/40.webp" alt="Sugar" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Sugar</a></button></div>
+    </div>
+   </div> 
+
+   <div class="column">
+    <div class="container">
+       <img src="images/41.webp" alt="Tea" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Tea</a></button></div>
+    </div>
+   </div> 
+
+   <div class="column">
+    <div class="container">
+       <img src="images/46.webp" alt="Masalas" style="width:300px; height: 300px;">
+        <div class="centered"><button><a href="rice.html">Masalas</a></button></div>
+    </div>
+   </div> 
+   </div> 
+   <div class="foo">
+    <br>
+    Copyright © 2022. All rights reserved by SRI-002 DA-IICT.
+</div>
+</body>
+</html>
